@@ -1,0 +1,17 @@
+# Python 3.10 x64. Install CUDA torch first using README commands.
+torch==2.1.2
+torchvision==0.16.2
+timm==0.9.12
+numpy==1.26.4
+mediapipe==0.10.14
+# MediaPipe depends on contrib. Install ONLY this OpenCV distribution.
+opencv-contrib-python==4.10.0.84
+protobuf==4.25.3
+# Bound transitive MediaPipe/timm dependencies for Python 3.10 + NumPy 1.x.
+jax==0.4.28
+jaxlib==0.4.28
+scipy==1.13.1
+matplotlib==3.8.4
+huggingface-hub==0.23.2
+pygame==2.6.1
+PyOpenGL==3.1.7
